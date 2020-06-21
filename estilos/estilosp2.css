@@ -59,8 +59,8 @@ header nav {
 
 .enlaces a:hover,
 .active {
-    border-top: 2px solid coral;
-    border-bottom: 2px solid coral;
+    border-top: 2px solid #0abab0;
+    border-bottom: 2px solid #0abab0;
 }
 @media only screen and (max-width: 767px){
 
@@ -113,7 +113,7 @@ nav .logo img {
         width: 100%;
         flex-direction: column;
         transition: all 1s ease;
-        background: #f46b45;
+        background: #0abab0;
         /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #297495, #143f52);
         /* Chrome 10-25, Safari 5.1-6 */
