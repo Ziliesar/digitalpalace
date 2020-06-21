@@ -39,7 +39,7 @@
             </div>
         </nav>
         <div class="textos">
-            <h1 style="font-size:300%">Las herramientas para triunfar en el Mundo digital</h1>
+            <h1 style="font-size:300%">Las herramientas para triunfar en el mundo digital</h1>
             <h2 style="font-size:300%; margin-top:1%">al alcance de tus manos</h2>
         </div>
     </header>
