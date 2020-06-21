@@ -24,6 +24,10 @@ body {
     font-size: 16px;
 }
 
+.textos {
+    text-align: center;
+    color: #fff;
+}
 
 header nav {
     height: 70px;
@@ -82,16 +86,9 @@ nav .logo img {
     height: inherit;
 }
 
-header .textos {
-    text-align: center;
-    color: #fff;
-}
-
 
 
 @media screen and (max-width:750px) {
-    
-    
     .icono {
         display: flex;
         justify-content: center;
@@ -124,14 +121,11 @@ header .textos {
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     }
-
     .uno {
 
         -webkit-clip-path: circle(0% at 100% 0%);
         clip-path: circle(0% at 100% 0%);
-
     }
-
     .dos {
 
         -webkit-clip-path: circle(150% at 100% 0%);
