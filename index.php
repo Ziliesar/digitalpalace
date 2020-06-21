@@ -17,16 +17,13 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-    
+   
     <link rel="stylesheet" href="estilos/estilosp2.css">
      <link rel="shortcut icon" href="img/icono.ico" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,800" rel="stylesheet">
-
 </head>
 
 <body>
-
     <header>
         <nav>
             <div class="logo">
@@ -46,8 +43,7 @@
             <h2 style="font-size:300%; margin-top:1%">al alcance de tus manos</h2>
         </div>
     </header>
-
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
