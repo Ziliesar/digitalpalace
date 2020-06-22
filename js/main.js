@@ -36,6 +36,7 @@ window.addEventListener('resize', function(){
     }
 })
 
+var cerrado;
 window.addEventListener('click',function(e){
     console.log(e.target);
     if(cerrado==false){
