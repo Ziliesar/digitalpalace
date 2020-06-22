@@ -4,12 +4,26 @@ let contador = 0;
 
 boton.addEventListener("click",function(){
     if(contador == 0){
+        
         enlaces.className = ('enlaces dos');
         contador=1;
+        
+        function ocultar(){
+            document.getElementById('contobj1').style.display = 'none';
+            }
+            ocultar();
+
+
     }else{
+        
         enlaces.classList.remove('dos');
         enlaces.className = ('enlaces uno');
         contador = 0;
+
+        function mostrar(){
+            document.getElementById('contobj1').style.display = 'block';
+            }
+            mostrar();
     }
 })
 

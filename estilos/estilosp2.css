@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 @font-face {
     font-family: averta;
     src: url(averta.otf);
@@ -166,15 +167,14 @@ nav .logo img {
 
     }
     .uno {
-
         -webkit-clip-path: circle(0% at 100% 0%);
         clip-path: circle(0% at 100% 0%);
     }
     .dos {
-
         -webkit-clip-path: circle(150% at 100% 0%);
         clip-path: circle(150% at 100% 0%);
-
+        
+        
     }
 }
 
