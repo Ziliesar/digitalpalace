@@ -27,13 +27,60 @@
     top: 40%;
     left: 50%;
 }
-.texto2{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 200%
+
+
+@media only screen and (min-width: 650px){
+    .texto2{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 200%;
+    }
+
+
+    nav .logo {
+        height: 100%;
+        background: #143f52;
+        margin-left: 3%;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .texto2{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 130%;
+    }
+
+    nav .logo {
+        height: 90%;
+        background: #143f52;
+        margin-left: 3%;
+        margin-top: 1%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .texto2{
+        position: absolute;
+        top: 52%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 110%;
+    }
+
+    nav .logo {
+        height: 70%;
+        background: #143f52;
+        margin-left: 2%;
+        margin-top: 4%;
+    }
 }
 
 body {
@@ -79,31 +126,11 @@ header nav {
     border-top: 2px solid #0abab0;
     border-bottom: 2px solid #0abab0;
 }
-@media only screen and (max-width: 767px){
-
-nav .logo {
-    height: 100%;
-    background: #143f52;
-    margin-left: 5%;
-}
-}
-
-@media only screen and (min-width: 767px){
-
-nav .logo {
-    height: 100%;
-    background: #143f52;
-    margin-left: 80px;
-}
-}
-
 
 nav .logo img {
     object-fit: cover;
     height: inherit;
 }
-
-
 
 @media screen and (max-width:750px) {
     .icono {
@@ -153,11 +180,7 @@ nav .logo img {
 
 @media screen and (max-width:400px){
     
-    nav .logo {
-    height: 100%;
-    background: #143f52;
-    margin-left: 80px;
-}
+    
     nav .logo{
         margin-left: 20px;
     }
