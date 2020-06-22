@@ -5,12 +5,11 @@
 
 <body>
     <?php include("header.php"); ?>
-
-    <div class="jumbotron textos">
-        <h1 style="font-size:300%">Las herramientas para triunfar en el mundo digital</h1>
-        <h2 style="font-size:300%; margin-top:1%">al alcance de tus manos</h2>
+    <div class="contenedor">
+        <img class="key" src="img/key1.jpg" />
+        <div class="texto1"></div>
+        <div class="texto2">Las herramientas para triunfar en el mundo digital al alcance de tus manos</div>
     </div>
-    
     <script src="js/main.js"></script>
 </body>
 
