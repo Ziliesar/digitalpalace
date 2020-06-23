@@ -5,12 +5,11 @@
 }
 
 .container_fluid{
-    background-color:#efefef;
+    background:#efefef;
 }
 
 .container_fluid2{
     background-color:#434343;
-    
 }
 
 .row{
@@ -82,9 +81,6 @@
     left: 50%;
 }
 
-#contenedor2{
-    text-align: center;
-}
 
 #texto3{
     margin-top: 6%;
@@ -262,3 +258,28 @@ nav .logo img {
     }
 }
 
+
+
+  footer{
+    text-align: center;
+    padding: 3px;
+    background: #143f52;
+    color: #fff;
+  }
+
+  .mision:hover, .vision:hover{
+    -webkit-animation-trigger: opacity 0.2s;
+      background: #143f52;
+      color: #fff;
+      
+  }
+
+/*------Fuente para texto-------*/
+.font-center{
+    
+    align-items: center;
+    text-align: justify;
+    
+    font-family: sans-serif;
+  }
+/*---------------------------------*/

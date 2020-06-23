@@ -5,33 +5,35 @@
 
 <body>
     <?php include("header.php"); ?>
-    <div id="contobj1" >
+    <div id="contobj1" class="container-fluid">
             <div id="parte1" >
             <div class="contenedor" >
                 <img class="key" src="img/key2.jpg" />
-                <div class="texto1"></div>
-                <div class="texto2">Las herramientas para triunfar en el mundo digital al alcance 
-                    de tus manos</div>
+                <!--div class="texto1"></div-->
+
+                <div class="texto2">Las herramientas para triunfar en el mundo digital al alcance de tus manos</div>
+
             </div>
-            <div id="contenedor2">
-                <div id="texto3" >Desarrollo y mantenimiento de software</div>
-                <div id="texto4">Sabemos de la importancia de sus proyectos en el nuevo mundo digital, el ser entregados
+            <br>
+            <div class="font-center">
+                <h1>Desarrollo y mantenimiento de software</h1>
+                <p>Sabemos de la importancia de sus proyectos en el nuevo mundo digital, el ser entregados
                 a tiempo y con una calidad superior son factores que nos respaldan como empresa. El trabajo que realizamos
                 con nuestros clientes los ayuda para mantenerse a la vanguardia en la nueva era digital ademas de 
                 ayudar de manera proactiva sus negocios y actividades para satisfarse y susperar sus expectativas.
-                </div>
+                </p>
             </div>
                 </div>
 
 
         <div class="container_fluid">
             <div class="row" style="width:100%;  ">
-                <div class="col-md-6"> 
+                <div class="col-md-5"> 
                     <img id="imgres" src="img/responsive1.png">
                 </div>
 
-                <div class="col-md-6">
-                    <p class="centrar" id="centrar2">
+                <div class="col-md-7">
+                    <p class="font-center centrar">
                         Brindar excelencia y calidad en cada uno de nuestros servicios prestados, proporcionando las 
                         mejores herramientas tecnológicas a medida de las necesidades de nuestros clientes, con el objetivo
                         de incrementar su productividad y competitividad en el mundo virtual. Para ello implementamos 
@@ -42,11 +44,12 @@
                 </div>
             </div>            
         </div>
+    </div>
 
-        <div class="container_fluid2">
+    <div class="container_fluid2">
             <div class="row2" style="width:100%; fond-color:#fff; ">
                 <div class="col-md-62" id="titulof4" > 
-                <FONT size="6%" COLOR="white">LO QUE TÚ TE MERECES</FONT>
+                <font size="6%" COLOR="white">LO QUE TÚ TE MERECES</FONT>
                 </div>
 
                 <div class="col-md-62" id="parrafof2">
@@ -61,8 +64,7 @@
             </div>            
         </div>
 
-
-    </div>
+    <?php include("footer.php") ?>
     <script src="js/main.js"></script>
 </body>
 
