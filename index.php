@@ -15,7 +15,7 @@
             </div>
             <div id="contenedor2">
                 <div id="texto3" >Desarrollo y mantenimiento de software</div>
-                <div id="texto4">Sabemos de la importancia de sus proyectos en el nuevo mundo digital, el ser entregagos
+                <div id="texto4">Sabemos de la importancia de sus proyectos en el nuevo mundo digital, el ser entregados
                 a tiempo y con una calidad superior son factores que nos respaldan como empresa. El trabajo que realizamos
                 con nuestros clientes los ayuda para mantenerse a la vanguardia en la nueva era digital ademas de 
                 ayudar de manera proactiva sus negocios y actividades para satisfarse y susperar sus expectativas.
