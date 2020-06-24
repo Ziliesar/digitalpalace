@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .container_fluid{
     background:#efefef;
 }
@@ -283,3 +284,26 @@ nav .logo img {
     font-family: sans-serif;
   }
 /*---------------------------------*/
+
+/*----zoom al imagen-----------------------------*/
+img.zoom {
+    width: 350px;
+    height: 200px;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(1.5); 
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.mybox {
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+/*--------------------------------------------------*/

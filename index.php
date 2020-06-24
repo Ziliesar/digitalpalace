@@ -6,30 +6,30 @@
 <body>
     <?php include("header.php"); ?>
     <div id="contobj1" class="container-fluid">
-            <div id="parte1" >
-            <div class="contenedor" >
-                <img class="key" src="img/key2.jpg" />
-                <!--div class="texto1"></div-->
+            <div id="parte1">
+                <div class="contenedor"  >
+                    <img class="key" src="img/key2.jpg" />
+                    <!--div class="texto1"></div-->
 
-                <div class="texto2">Las herramientas para triunfar en el mundo digital al alcance de tus manos</div>
+                    <div class="texto2">Las herramientas para triunfar en el mundo digital al alcance de tus manos</div>
 
-            </div>
-            <br>
-            <div class="font-center">
-                <h1>Desarrollo y mantenimiento de software</h1>
-                <p>Sabemos de la importancia de sus proyectos en el nuevo mundo digital, el ser entregados
-                a tiempo y con una calidad superior son factores que nos respaldan como empresa. El trabajo que realizamos
-                con nuestros clientes los ayuda para mantenerse a la vanguardia en la nueva era digital ademas de 
-                ayudar de manera proactiva sus negocios y actividades para satisfarse y susperar sus expectativas.
-                </p>
-            </div>
                 </div>
+                <br>
+                <div class="font-center row" >
+                    <h1 class="col-md-12">Desarrollo y mantenimiento de software</h1>
+                    <p class="col-md-12">Sabemos de la importancia de sus proyectos en el nuevo mundo digital, el ser entregados
+                    a tiempo y con una calidad superior son factores que nos respaldan como empresa. El trabajo que realizamos
+                    con nuestros clientes los ayuda para mantenerse a la vanguardia en la nueva era digital ademas de 
+                    ayudar de manera proactiva sus negocios y actividades para satisfarse y susperar sus expectativas.
+                    </p>
+                </div>
+            </div>
 
 
         <div class="container_fluid">
             <div class="row" style="width:100%;  ">
                 <div class="col-md-5"> 
-                    <img id="imgres" src="img/responsive1.png">
+                    <img id="imgres" src="img/responsive1.png" class="zoom">
                 </div>
 
                 <div class="col-md-7">
@@ -45,7 +45,7 @@
             </div>            
         </div>
     </div>
-
+    <br>
     <div class="container_fluid2">
             <div class="row2" style="width:100%; fond-color:#fff; ">
                 <div class="col-md-62" id="titulof4" > 
@@ -66,6 +66,15 @@
 
     <?php include("footer.php") ?>
     <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.zoom').hover(function() {
+                $(this).addClass('transition');
+            }, function() {
+                $(this).removeClass('transition');
+            });
+        });
+    </script>
 </body>
 
 </html>
