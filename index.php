@@ -15,9 +15,9 @@
 
                 </div>
                 <br>
-                <div class="font-center row" >
-                    <h1 class="col-md-12">Desarrollo y mantenimiento de software</h1>
-                    <p class="col-md-12">Sabemos de la importancia de sus proyectos en el nuevo mundo digital, el ser entregados
+                <div class="font-center row" id="parrafo2b">
+                    <h1 class="col-md-12" id="parrafo2">Desarrollo y mantenimiento de software</h1>
+                    <p class="col-md-12" id="parrafo2a">Sabemos de la importancia de sus proyectos en el nuevo mundo digital, el ser entregados
                     a tiempo y con una calidad superior son factores que nos respaldan como empresa. El trabajo que realizamos
                     con nuestros clientes los ayuda para mantenerse a la vanguardia en la nueva era digital ademas de 
                     ayudar de manera proactiva sus negocios y actividades para satisfarse y susperar sus expectativas.
