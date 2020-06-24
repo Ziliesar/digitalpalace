@@ -11,7 +11,7 @@
                     <img class="key" src="img/key2.jpg" />
                     <!--div class="texto1"></div-->
 
-                    <div class="texto2">Las herramientas para triunfar en el mundo digital al alcance de tus manos</div>
+                    <div class="animate__animated animate__rollIn" id="texto2a">Las herramientas para triunfar en el mundo digital al alcance de tus manos</div>
 
                 </div>
                 <br>

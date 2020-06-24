@@ -97,10 +97,10 @@
 }
 
 @media only screen and (min-width: 650px){
-    .texto2{
+    #texto2a{
         position: absolute;
-        top: 30%;
-        left: 50%;
+        padding: 22%;
+        margin-top: -10%;
         transform: translate(-50%, -50%);
         color: #fff;
         font-size: 200%;
@@ -114,11 +114,29 @@
     }
 }
 
-@media only screen and (max-width: 650px){
-    .texto2{
+@media only screen and (max-width: 720px){
+    #texto2a{
         position: absolute;
-        top: 40%;
-        left: 50%;
+        padding: 22%;
+        margin-top: -18%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 200%;
+    }
+    nav .logo {
+        height: 90%;
+        background: #143f52;
+        margin-left: 3%;
+        margin-top: 1%;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    #texto2a{
+        position: absolute;
+        padding: 22%;
+        margin-top: -18%;
         transform: translate(-50%, -50%);
         color: #fff;
         font-size: 130%;
@@ -133,10 +151,10 @@
 }
 
 @media only screen and (max-width: 400px){
-    .texto2{
+    #texto2a{
         position: absolute;
-        top: 52%;
-        left: 50%;
+        padding: 22%;
+        margin-top: -20%;
         transform: translate(-50%, -50%);
         color: #fff;
         font-size: 110%;
