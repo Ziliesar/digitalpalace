@@ -257,11 +257,19 @@ header nav {
 }
 
 .enlaces {
-    display: flex;
-    height: 100%;
-    width: 30%;
-    justify-content: space-around;
-    align-items: center;
+    position: fixed;
+    height: 100vh;
+    right: 0;
+    width: 100%;
+    flex-direction: column;
+    transition: all 1s ease;
+    background: #0abab0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #297495, #143f52);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #297495, #143f52);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .enlaces a {

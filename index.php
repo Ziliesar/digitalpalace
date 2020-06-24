@@ -7,13 +7,41 @@
     <?php include("header.php"); ?>
     <div id="contobj1" class="container-fluid">
             <div id="parte1">
-                <div class="contenedor"  >
-                    <img class="key" src="img/key2.jpg" />
-                    <!--div class="texto1"></div-->
+              
 
-                    <div class="animate__animated animate__rollIn" id="texto2a">Las herramientas para triunfar en el mundo digital al alcance de tus manos</div>
 
+
+
+            <!--IMAGEN 1 SLIDER-->
+            <div id="imgp2"> 
+            <img class="key" src="img/key2.jpg" />
+                <div class="texto1"></div>
+                <div class="animate__animated animate__rollIn" id="texto2ss" style="text-align:center">Las herramientas para triunfar en el mundo digital al alcance 
+                    de tus manos</div>
+            </div>
+        <!--IMAGEN 1-->
+        <div id="imgp1">
+         <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicador -->
+            <ul class="carousel-indicators">
+              
+            </ul>
+        
+            <!-- contenedor de slider -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/key2.jpg" alt="1" style="width:100%;">
+                    <div class="carousel-caption d-none d-md-block" style="top:25%" id="titl3">
+                        <h3 >Las herramientas para triunfar en el mundo digital al alcance de tus manos</h3>
+    
+                    </div>
                 </div>
+            
+            </div>
+        </div>
+        <!-- FIN IMAGEN 1 -->
+
+
                 <br>
                 <div class="font-center row" id="parrafo2b">
                     <h1 class="col-md-12" id="parrafo2">Desarrollo y mantenimiento de software</h1>
@@ -75,7 +103,7 @@
         <!-- contenedor de slider -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/universo.jpg" alt="1" style="width:100%">
+                <img src="img/universo.jpg" alt="1" style="width:100%;">
             </div>
             <div class="carousel-item">
                 <img src="img/universo.jpg" alt="2" style="width:100%">

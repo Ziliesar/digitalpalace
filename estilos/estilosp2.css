@@ -40,6 +40,14 @@
 
 
 @media only screen and (max-width: 768px){
+#titl3{
+    display: block;
+}
+
+#ip1{
+    display: none;
+}
+
     #centrar2{
         margin-left: 5%;
         margin-right:5%
@@ -111,7 +119,7 @@
 
 @media only screen and (min-width: 650px){
     #texto2a{
-        position: absolute;
+        position: relative;
         padding: 22%;
         margin-top: -10%;
         transform: translate(-50%, -50%);
@@ -127,9 +135,9 @@
     }
 }
 
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 750px){
     #texto2a{
-        position: absolute;
+        position: relative;
         padding: 22%;
         margin-top: -18%;
         transform: translate(-50%, -50%);
@@ -183,6 +191,8 @@
 
 #myCarousel{
     text-align: center;
+    padding: 3%;
+    background-color: #fff;
 }
 
 body {
@@ -224,7 +234,7 @@ header nav {
 }
 
 .enlaces a:hover,
-.active {
+.active2 {
     border-top: 2px solid #0abab0;
     border-bottom: 2px solid #0abab0;
 }
@@ -234,7 +244,75 @@ nav .logo img {
     height: inherit;
 }
 
-@media screen and (max-width:750px) {
+@media only screen and (max-width: 768px){
+    #texto2ss{
+        position: absolute;
+        top: 25%;
+        margin-left: 10%;
+        margin-right: 5%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 130%;
+    }
+}
+
+@media only screen and (max-width: 560px){
+    #texto2ss{
+        position: absolute;
+        top: 20%;
+        margin-left: 10%;
+        margin-right: 5%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 130%;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    #texto2ss{
+        position: absolute;
+        top: 15%;
+        margin-left: 8%;
+        margin-right: 10%;
+        width: 80%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 100%;
+    }
+}
+
+
+@media screen and (min-width:800px) {
+   
+
+    header .textos h1 {
+        font-size: 75px;
+    }
+
+    
+
+}
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+    #imgp2{
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width:767px) {
+    #imgp1{
+        display: none;
+    }
+
     .icono {
         display: flex;
         justify-content: center;
@@ -278,6 +356,18 @@ nav .logo img {
         
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:400px){
     
