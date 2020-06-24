@@ -29,7 +29,7 @@
         <div class="container_fluid">
             <div class="row" style="width:100%;  ">
                 <div class="col-md-5"> 
-                    <img id="imgres" src="img/responsive1.png" class="zoom">
+                    <img id="imgres" src="img/responsive1.png" >
                 </div>
 
                 <div class="col-md-7">
@@ -44,8 +44,8 @@
                 </div>
             </div>            
         </div>
-    </div>
-    <br>
+
+        <br>
     <div class="container_fluid2">
         <div class="row2" style="width:100%; fond-color:#fff; ">
             <div class="col-md-62" id="titulof4" > 
@@ -93,8 +93,8 @@
             <span class="carousel-control-next-icon"></span>
         </a>
     </div>
-
-</div>
+    </div>
+    
 
     <?php include("footer.php") ?>
     <script src="js/main.js"></script>
