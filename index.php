@@ -75,13 +75,13 @@
         <!-- contenedor de slider -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/universo.jpg" alt="1" >
+                <img src="img/universo.jpg" alt="1" style="width:100%">
             </div>
             <div class="carousel-item">
-                <img src="img/universo.jpg" alt="2" >
+                <img src="img/universo.jpg" alt="2" style="width:100%">
             </div>
             <div class="carousel-item">
-                <img src="img/universo.jpg" alt="3">
+                <img src="img/universo.jpg" alt="3" style="width:100%">
             </div>
         </div>
         
