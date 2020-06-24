@@ -47,22 +47,54 @@
     </div>
     <br>
     <div class="container_fluid2">
-            <div class="row2" style="width:100%; fond-color:#fff; ">
-                <div class="col-md-62" id="titulof4" > 
-                <font size="6%" COLOR="white">LO QUE TÚ TE MERECES</FONT>
-                </div>
+        <div class="row2" style="width:100%; fond-color:#fff; ">
+            <div class="col-md-62" id="titulof4" > 
+            <font size="6%" COLOR="white">LO QUE TÚ TE MERECES</FONT>
+            </div>
 
-                <div class="col-md-62" id="parrafof2">
-                <FONT COLOR="white">Ubicados en Honduras contamos con una gran variedad de 
-                    facilidades para tu negocio o trabajo, ya que realizamos cualquier tipo de proyecto
-                    como ser:<br>
-                    -Elaboracion y mantenimientos de sitios web.<br>
-                    -Elaboracion de apps y programas.
+            <div class="col-md-62" id="parrafof2">
+            <FONT COLOR="white">Ubicados en Honduras contamos con una gran variedad de 
+                facilidades para tu negocio o trabajo, ya que realizamos cualquier tipo de proyecto
+                como ser:<br>
+                -Elaboracion y mantenimientos de sitios web.<br>
+                -Elaboracion de apps y programas.
 
-                </FONT>
-                </div>
-            </div>            
+            </FONT>
+            </div>
+        </div>            
+    </div>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicador -->
+        <ul class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- contenedor de slider -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/universo.jpg" alt="1" >
+            </div>
+            <div class="carousel-item">
+                <img src="img/universo.jpg" alt="2" >
+            </div>
+            <div class="carousel-item">
+                <img src="img/universo.jpg" alt="3">
+            </div>
         </div>
+        
+        <!-- flechas de izquierda y derecha -->
+        <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+</div>
 
     <?php include("footer.php") ?>
     <script src="js/main.js"></script>
