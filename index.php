@@ -101,22 +101,22 @@
         
         <!-- contenedor de slider -->
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/1c.JPG" alt="1" style="width:100%;">
+            <div class="carousel-item active" style="text-align: center;">
+                <img src="img/1c.JPG" alt="1" style="width:80%; text-align: center;">
                 <div class="carousel-caption d-none d-md-block" style="color: white; background-color: black; opacity:80%;">
                         <h4>Creación de todo tipo de software para todos los dispositivos</h5>
                         <h5>Apps, juegos y todo tipo de software</p>
                         </div>
             </div>
-            <div class="carousel-item">
-                <img src="img/2c.jpg" alt="2" style="width:100%">
+            <div class="carousel-item" >
+                <img src="img/2c.jpg" alt="2" style="width:80%">
                 <div class="carousel-caption d-none d-md-block" style="color: white; background-color: black; opacity:80%;">
                     <h4>Creación y mantenimiento de sitios web</h5>
                     <h5>Elaboramos y le damos mantenimiento a tu sitio web, cumpliendo con todas tus necesidades y expectativas</p>
                     </div>
             </div>
             <div class="carousel-item">
-                <img src="img/3c.JPG" alt="3" style="width:100%">
+                <img src="img/3c.JPG" alt="3" style="width:80%">
                 <div class="carousel-caption d-none d-md-block" style="color: white; background-color: black; opacity:80%;">
                     <h4>Ayuda en la creación de software en tus tareas y proyectos universitarios</h5>
                     <h5>¿Eres estudiante informatico o cursas alguna clase de computación?, ponte en contacto con nosotros para recibir ayuda</p>

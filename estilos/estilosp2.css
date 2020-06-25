@@ -185,6 +185,8 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
+
+
 @media only screen and (max-width: 400px){
     #texto2a{
         position: absolute;
@@ -203,10 +205,18 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-#myCarousel{
+#myCarousel2{
     text-align: center;
     padding: 3%;
     background-color: #fff;
+}
+
+
+
+#myCarousel{
+    text-align: center;
+    padding: 3%;
+    
 }
 
 body {

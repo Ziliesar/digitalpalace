@@ -2,6 +2,12 @@
     <div class="container">
         <br>
         <br>
-        <p>© 2020 Digital Palace</P>
+        <div >
+            <p id="letf1" >© 2020 Digital Palace</p>
+           
+
+        </div>
+  
+        
     </div>
 </footer>
