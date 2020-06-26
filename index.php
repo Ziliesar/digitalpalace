@@ -3,7 +3,7 @@
 
 <?php include("head.php"); ?>
 
-<body>
+<body style="bacgraund: red;">
     <?php include("header.php"); ?>
     <div id="contobj1" class="container-fluid">
     <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:-3%">
