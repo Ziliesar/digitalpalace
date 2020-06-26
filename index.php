@@ -6,7 +6,7 @@
 <body style="bacgraund: red;">
     <?php include("header.php"); ?>
     <div id="contobj1" class="container-fluid">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top:-3%">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" >
         <!-- Indicador -->
         <ul class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -40,10 +40,10 @@
         </div>
         
         <!-- flechas de izquierda y derecha -->
-        <a class="carousel-control-prev" href="#myCarousel" style="background: black; width:12.4%; height: 87.5%; margin-top: 3%;" data-slide="prev">
+        <a class="carousel-control-prev" href="#myCarousel" style="background: black; width:12.4%;" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
         </a>
-        <a class="carousel-control-next" href="#myCarousel" style="background: black; width:12.4%; height: 87.5%; margin-top: 3%;" data-slide="next">
+        <a class="carousel-control-next" href="#myCarousel" style="background: black; width:12.4%;" data-slide="next">
             <span class="carousel-control-next-icon"></span>
         </a>
     </div>
