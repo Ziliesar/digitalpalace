@@ -7,9 +7,9 @@
             <span>&#9776;</span>
         </div>
         <div class="enlaces uno" id="enlaces">
-            <a href="#" class="active">Inicio</a>
-            <a href="#">Acerca de nosotros</a>
-            <a href="#">Contacto</a>
+            <a href="index.php" class="active">Inicio</a>
+            <a href="acercadenosotros.php">Acerca de nosotros</a>
+            <a href="contacto/contacto.php">Contacto</a>
         </div>
     </nav>
 </header>

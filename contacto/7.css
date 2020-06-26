@@ -1,4 +1,8 @@
 
+.font{
+    background-image: url("../img/contacto2.jpg");
+    background-size: 100%;
+}
 
 form {
   width: 40%;
@@ -48,11 +52,11 @@ input, select {
   padding: 5px;
   margin-bottom: 20px;
 }
+
 input[type="submit"] {
   width: 30%;
   margin: auto;
-  background: #333;
-  color: white;
+
   border: none;
   cursor: pointer;
 }

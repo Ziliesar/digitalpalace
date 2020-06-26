@@ -3,10 +3,10 @@
 
 <?php include("head.php"); ?>
 
-<body>
+<body class="font">
     <?php include("header.php"); ?>
     
-            <form>
+    <form style="color: white; background-color: black; opacity:80%;">
             <h1>Enviar consulta</h1>
       
       
@@ -15,7 +15,7 @@
       <input type="text" name="telefono" placeholder="Ingrese su numero de teléfono (opcional)" required>
       <textarea name="mensaje" placeholder="Escriba aqui su mensaje"></textarea>
       
-      <input type="submit" name="submit">
+      <input class="btn btn-primary" type="submit" name="submit">
       
     </form>
  <?php
