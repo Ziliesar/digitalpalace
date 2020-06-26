@@ -432,6 +432,12 @@ nav .logo img {
     
     font-family: sans-serif;
   }
+
+  .nosotrosM{
+    font-family: ;
+  }
+  
+  
 /*---------------------------------*/
 
 /*----zoom al imagen-----------------------------*/
@@ -458,40 +464,59 @@ img.zoom {
 /*--------------------------------------------------*/
 
 
+/*-------------Quienes Somos -----------------------*/
 .contenAbout{
-    background: RGB(0, 128, 128);
+    background: #fff;
     height: 500px;
 }
 
+.QNS{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 72px;
+}
+
+.btn-primary:hover{
+    background: #1C1C1C;
+    color: #fff;
+    
+}
 
 .contenAbout1{
     text-align: center;
     float: left;
-    width: 40%;
+    width: 30%;
     height: 80%;
-    margin-left: 6%;
-    background: #fff;
+    margin-left: 15%;
+    background: #143f52;
     padding: 2%;
     margin-top: 5%;
-    color: black;
-    border: 1px solid black;
+    color: white;
+    border: 1px solid white;
     box-sizing: border-box;
-    border-radius: 15px;
-
-    
+    border-radius: 15px;  
 }
 
 .contenAbout2{
     text-align: center;
     float: left;
-    width: 40%;
+    width: 30%;
     height: 80%;
-    margin-left: 5%;
-    background: #fff;
+    margin-left: 8%;
+    background: #143f52;
     padding: 2%;
-    margin-top: 5%;
-    color: black;
-    border: 1px solid black;
+    margin-top: 8%;
+    color: white;
+    border: 1px solid white;
     box-sizing: border-box;
     border-radius: 15px;
   }
+
+  .img:hover {
+    transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+  }
+/*----------------------------------------------*/
