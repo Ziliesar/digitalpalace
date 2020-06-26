@@ -19,8 +19,8 @@
             <div class="carousel-item active" style="text-align: center;">
                 <img src="img/1c.JPG" alt="1" style="width:80%; text-align: center;">
                 <div class="carousel-caption d-block d-md-block" style="color: white; background-color: black; opacity:80%;">
-                    <h4>Creación de todo tipo de software para todos los dispositivos</h5>
-                    <h5>Apps, juegos y todo tipo de software</p>
+                    <h4>Creación de todo tipo de software para todos los dispositivos.</h5>
+                    <h5>Apps, juegos y todo tipo de software.</p>
                 </div>
             </div>
             <div class="carousel-item" >
