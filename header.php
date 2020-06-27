@@ -9,7 +9,7 @@
         <div class="enlaces uno" id="enlaces">
             <a href="index.php" class="active">Inicio</a>
             <a href="acercadenosotros.php">Acerca de nosotros</a>
-            <a href="contacto/contacto.php">Contacto</a>
+            <a href="contacto/enviarcorreo.php">Contacto</a>
         </div>
     </nav>
 </header>
