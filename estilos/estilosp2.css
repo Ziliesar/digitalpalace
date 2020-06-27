@@ -9,6 +9,23 @@ body::-webkit-scrollbar{
     
 }
 
+
+.row2{
+    margin-right: 0px;
+ }
+.row{
+    margin-right: 0px;
+ }
+ 
+ .container-fluid{
+    padding-right: 0px;
+ }
+ .container-fluid2{
+    padding-right: 0px;
+ }
+
+
+
 ::-webkit-scrollbar-track        { 
     background: #e2f6ff;
  }
@@ -19,12 +36,10 @@ body::-webkit-scrollbar-thumb {
 
 
 
-.container_fluid{
-    background:#efefef;
-}
+
 
 .container_fluid2{
-    background-color:#434343;
+    background-color:#000;
 }
 
 .row{
@@ -53,6 +68,188 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+/*LETRAS CARRUSEL*/
+@media only screen and (max-width: 850px){
+#letraimg1{
+    height: 50%;
+}
+#letraimg1a{
+    font-size: 80%;
+}
+#letraimg1b{
+    font-size: 80%;
+}
+
+#letraimg2{
+    height: 50%;
+}
+#letraimg2a{
+    font-size: 80%;
+}
+#letraimg2b{
+    font-size: 80%;
+}
+
+#letraimg3{
+    height: 50%;
+}
+#letraimg3a{
+    font-size: 80%;
+}
+#letraimg3b{
+    font-size: 80%;
+}
+}
+
+@media only screen and (max-width: 525px){
+    #letraimg2{
+        height: 50%;
+    }
+    #letraimg2a{
+        font-size: 70%;
+    }
+    #letraimg2b{
+        font-size: 70%;
+    }
+
+    #letraimg3{
+        height: 50%;
+    }
+    #letraimg3a{
+        font-size: 60%;
+    }
+    #letraimg3b{
+        font-size: 60%;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    #letraimg1{
+        height: 50%;
+    }
+    #letraimg1a{
+        font-size: 70%;
+    }
+    #letraimg1b{
+        font-size: 70%;
+    }
+    
+    #letraimg2{
+        height: 50%;
+    }
+    #letraimg2a{
+        font-size: 60%;
+    }
+    #letraimg2b{
+        font-size: 60%;
+    }
+    
+    #letraimg3{
+        height: 50%;
+    }
+    #letraimg3a{
+        font-size: 50%;
+    }
+    #letraimg3b{
+        font-size: 50%;
+    }
+    }
+
+    @media only screen and (max-width: 430px){
+        #letraimg1{
+            height: 50%;
+        }
+        #letraimg1a{
+            font-size: 70%;
+        }
+        #letraimg1b{
+            font-size: 70%;
+        }
+        
+        #letraimg2{
+            height: 50%;
+        }
+        #letraimg2a{
+            font-size: 60%;
+        }
+        #letraimg2b{
+            font-size: 60%;
+        }
+        
+        #letraimg3{
+            height: 50%;
+        }
+        #letraimg3a{
+            font-size: 50%;
+        }
+        #letraimg3b{
+            font-size: 50%;
+        }
+        }
+        @media only screen and (max-width: 380px){
+            #letraimg1{
+                height: 50%;
+            }
+            #letraimg1a{
+                font-size: 70%;
+            }
+            #letraimg1b{
+                font-size: 70%;
+            }
+            
+            #letraimg2{
+                height: 50%;
+            }
+            #letraimg2a{
+                font-size: 50%;
+            }
+            #letraimg2b{
+                font-size: 50%;
+            }
+            
+            #letraimg3{
+                height: 40%;
+            }
+            #letraimg3a{
+                font-size: 30%;
+            }
+            #letraimg3b{
+                font-size: 30%;
+            }
+            }
+
+            @media only screen and (max-width: 366px){
+                #letraimg1{
+                    height: 50%;
+                }
+                #letraimg1a{
+                    font-size: 50%;
+                }
+                #letraimg1b{
+                    font-size: 50%;
+                }
+                
+                #letraimg2{
+                    height: 60%;
+                }
+                #letraimg2a{
+                    font-size: 50%;
+                }
+                #letraimg2b{
+                    font-size: 50%;
+                }
+                
+                #letraimg3{
+                    height: 60%;
+                }
+                #letraimg3a{
+                    font-size: 40%;
+                }
+                #letraimg3b{
+                    font-size: 40%;
+                }
+                }
+/*FIN LETRAS DE CARRUSEL 1*/
 @media only screen and (max-width: 768px){
 #titl3{
     display: block;
@@ -95,15 +292,20 @@ body::-webkit-scrollbar-thumb {
 
 #parrafo2{
     text-align: center;
+    font-weight: bold;
 }
 
 #parrafo2a{
-    text-align: justify;
+    text-align: center;
    padding-top: 1%;
+  
+   font-weight: bold;
 }
 
 #parrafo2b{
     padding: 5%;
+    display: inline-block
+
 }
 
 .key{
@@ -207,7 +409,7 @@ body::-webkit-scrollbar-thumb {
 
 #myCarousel2{
     text-align: center;
-    padding: 3%;
+    
     background-color: #fff;
 }
 
@@ -215,8 +417,6 @@ body::-webkit-scrollbar-thumb {
 
 #myCarousel{
     text-align: center;
-    padding: 3%;
-    
 }
 
 body {
@@ -432,13 +632,9 @@ nav .logo img {
     
     font-family: sans-serif;
   }
-
-  .nosotrosM{
-    font-family: ;
-  }
-  
-  
 /*---------------------------------*/
+
+
 
 /*----zoom al imagen-----------------------------*/
 img.zoom {
