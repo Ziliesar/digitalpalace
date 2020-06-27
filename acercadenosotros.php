@@ -6,15 +6,20 @@ include("head.php"); ?>
 
 <body>
     <?php include("header.php"); ?>
-    
+    <div id="contoc">
     <div class=" contenAbout">
         <br>
-        <h1 class="QNS">¿Quienes Somos?</h1>
-        <div class="contenAbout1 " >
+        <h1 class="QNS">¿Quiénes Somos?</h1>
+        <div>
+            <p style="padding-left:10%; padding-right:10%; padding-bottom:5%; text-align: justify">
+                Una empresa dedicada al desarrollo web, creación de software y mantenimiento, comprometida con la calidad de nuestros servicios en el entorno de la programación calificada, con las mejores opciones en proyectos para la obtención de aplicaciones, páginas web, softwares y más productos a medida de las necesidades de nuestros clientes, siguiendo en todos los casos una metodología de desarrollo, aplicando los procedimientos y controles del sistema de gestión de calidad, donde el producto del cliente tenga mayor prontitud en la obtención de su proyecto, un mantenimiento eficaz, con el mejor diseño y a un precio económico, asegurando el mayor rendimiento y particularidad de dicho producto, debido a que la empresa es constante en la evolución, garantía y calidad de los elementos en que se basan nuestros servicios para la creación del proyecto de desarrollo de software, con un diseño único y adaptado para la persona, institución o empresa que lo requiera.
+            </p>
+        </div>
+        <div class="contenAbout1 " style="margin-top:0%">
             <div>
-                <img src="acercadenosotros/mision2.jpg" width="80%" height="40%" style="padding-bottom: 3%;">
+                <img src="acercadenosotros/mision.PNG" width="80%" height="40%" style="padding-bottom: 3%;">
                 <br>
-                <p class="font-center" >Brindar excelencia y calidad en cada uno de nuestros servicios prestados, proporcionando las mejores herramientas tecnológicas a medida de las necesidades de nuestros clientes, con el objetivo de incrementar su productividad y competitividad en el mundo virtual.</p>
+                <p class="font-center" >Brindar excelencia y calidad en cada uno de nuestros servicios prestados, proporcionando las mejores herramientas tecnológicas a medida de las necesidades de nuestros clientes, con el objetivo de incrementar...</p>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalMision">
                     Leer mas
                 </button>
@@ -43,8 +48,8 @@ include("head.php"); ?>
                 </div>
             </div>
         </div>
-        <div class="contenAbout2">
-            <img src="acercadenosotros/vision.jpg" width="80%" height="40%" style="padding-bottom: 3%;">
+        <div class="contenAbout2" style="margin-top:0%">
+            <img src="acercadenosotros/vision.PNG" width="80%" style="padding-bottom: 3%;">
             <br>
             <p class="font-center">Estar altamente comprometidos con los trabajos realizados para nuestros clientes de manera calificada y eficaz, para convertirnos en su empresa de confianza, logrando identificarnos como una empresa ejemplar...</p>
 
@@ -78,9 +83,9 @@ include("head.php"); ?>
     </div>
 
     <div class=" contenAbout">
-        <div class="contenAbout1">
+        <div class="contenAbout1" style="margin-top:5%">
             <div>
-                <img src="acercadenosotros/politica2.jpg" width="80%" height="40%" style="padding-bottom: 3%;">
+                <img src="acercadenosotros/politica.PNG" width="80%" height="40%" style="padding-bottom: 3%;">
                 <br>
                 <p class="font-center">Basada en nuestra firme responsabilidad con los clientes, nos encargamos de satisfacer plenamente sus requerimientos y expectativas...</p>
                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#PoliticaC">
@@ -111,10 +116,10 @@ include("head.php"); ?>
                 </div>
             </div>
         </div>
-        <div class="contenAbout2">
-            <img src="acercadenosotros/caracteristicas.jpg" width="80%" height="40%" style="padding-bottom: 3%;">
+        <div class="contenAbout2" style="margin-top:5%">
+            <img src="acercadenosotros/caracteristicas.png" width="80%"  style="padding-bottom: 3%;">
             <br>
-            <p class="font-center"></p>
+            <p class="font-center">Integridad: Reflejamos la honestidad y coherencia en todas nuestras acciones como empresa...</p>
             
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#CaracterísticasV">
                     Leer mas
@@ -148,6 +153,7 @@ include("head.php"); ?>
                 </div>
         </div>
     </div>
+</div>
     <script src="main.js"></script>
 </body>
 
