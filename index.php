@@ -5,95 +5,91 @@
 
 <body >
     <?php include("header.php"); ?>
+
+
     <div id="contobj1" class="container-fluid" style="padding-right: 0px;padding-left: 0px;">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel" style=" padding-left: 0 !important;padding-right: 0 !important;width: 100% !important;">
-        <!-- Indicador -->
-        <ul class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ul>
-        
-        <!-- contenedor de slider -->
-        <div class="carousel-inner">
-            <div class="carousel-item active" style="text-align: center;">
-                <img src="img/1c.JPG" alt="1" style="width:80%; text-align: center;">
-                <div class="carousel-caption d-block d-md-block" id="letraimg1" style="color: white; background-color: black; opacity:80%;">
-                    <h4 id="letraimg1a">Creación de todo tipo de software para todos los dispositivos.</h5>
-                    <h5 id="letraimg1b">Apps, juegos y todo tipo de software.</p>
-                </div>
-            </div>
-            <div class="carousel-item" >
-                <img src="img/2c.jpg" alt="2" style="width:80%">
-                <div class="carousel-caption d-block d-md-block" id="letraimg2" style="color: white; background-color: black; opacity:80%;">
-                    <h4 id="letraimg2a">Creación y mantenimiento de sitios web</h5>
-                    <h5 id="letraimg2b">Elaboramos y le damos mantenimiento a tu sitio web, cumpliendo con todas tus necesidades y expectativas</p>
-                    </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/3c.JPG" alt="3" style="width:80%">
-                <div class="carousel-caption d-block d-md-block" id="letraimg3" style="color: white; background-color: black; opacity:80%;">
-                    <h4 id="letraimg3a">Ayuda en la creación de software en tus tareas y proyectos universitarios</h5>
-                    <h5 id="letraimg3b">¿Eres estudiante informatico o cursas alguna clase de computación?, ponte en contacto con nosotros para recibir ayuda</p>
-                    </div>
-            </div>
-        </div>
-        
-        <!-- flechas de izquierda y derecha -->
-        <a class="carousel-control-prev" href="#myCarousel" style="background: #143f52; width:10%; oppacity:5%" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" style="background: #143f52; width:10%" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-    </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style=" padding-left: 0 !important;padding-right: 0 !important;width: 100% !important;">
+            <!-- Indicador -->
+            <ul class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ul>
 
-    <!--CARRUSEL 1-->
-
-    <div class="font-center row" id="parrafo2b" style=" margin-right: 0px;margin-left: 0px; ">
-        <h1 class="animate__animated animate__rollIn" id="parrafo2" >Desarrollo y mantenimiento de software</h1>
-        <p class="col-md-12" id="parrafo2a" >Sabemos de la importancia de sus proyectos en el nuevo mundo digital, el ser entregados
-            a tiempo y con una calidad superior son factores que nos respaldan como empresa. El trabajo que realizamos
-            con nuestros clientes los ayuda para mantenerse a la vanguardia en la nueva era digital ademas de 
-            ayudar de manera proactiva sus negocios y actividades para satisfarse y susperar sus expectativas.
-        </p>
-    </div>
-
-
-        <div id="parte1">
-            <!--IMAGEN 1 SLIDER-->
-            
-            <!--IMAGEN 1-->
-            <div id="imgp1">
-                <div id="myCarousel2" class="carousel slide" data-ride="carousel">
-                <!-- Indicador -->
-                <ul class="carousel-indicators">
-              
-                </ul>
-        
             <!-- contenedor de slider -->
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active" style="text-align: center;">
+                    <img src="img/1c.JPG" alt="1" style="width:80%; text-align: center;">
+                    <div class="carousel-caption d-block d-md-block" id="letraimg1" style="color: white; background-color: black; opacity:80%;">
+                        <h4 id="letraimg1a">Creación de todo tipo de software para todos los dispositivos.</h4>
+                        <h5 id="letraimg1b">Apps, juegos y todo tipo de software.</h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item" >
+                    <img src="img/2c.jpg" alt="2" style="width:80%">
+                    <div class="carousel-caption d-block d-md-block" id="letraimg2" style="color: white; background-color: black; opacity:80%;">
+                        <h4 id="letraimg2a">Creación y mantenimiento de sitios web</h4>
+                        <h5 id="letraimg2b">Elaboramos y le damos mantenimiento a tu sitio web, cumpliendo con todas tus necesidades y expectativas</h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/3c.JPG" alt="3" style="width:80%">
+                    <div class="carousel-caption d-block d-md-block" id="letraimg3" style="color: white; background-color: black; opacity:80%;">
+                        <h4 id="letraimg3a">Ayuda en la creación de software en tus tareas y proyectos universitarios</h4>
+                        <h5 id="letraimg3b">¿Eres estudiante informatico o cursas alguna clase de computación?, ponte en contacto con nosotros para recibir ayuda</h5>
+                    </div>
+                </div>
+
+            </div>
+            <!--fin contenedor slider-->
+
+            <!--Flecha izquierda y derecha-->
+            <!-- flechas de izquierda y derecha -->
+            <a class="carousel-control-prev" href="#myCarousel" style="background: #143f52; width:10%;" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" style="background: #143f52; width:10%;" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+            <!--fin de las flechas-->
+        </div>
+
+        <!------------------Inicia----------------------->
+        <div class="font-center row" id="parrafo2b" style=" margin-right: 0px;margin-left: 0px; ">
+            <h1 class="animate__animated animate__rollIn" id="parrafo2" >Desarrollo y mantenimiento de software</h1>
+            <p class="col-md-12" id="parrafo2a" >Sabemos de la importancia de sus proyectos en el nuevo mundo digital, el ser entregados
+                a tiempo y con una calidad superior son factores que nos respaldan como empresa. El trabajo que realizamos
+                con nuestros clientes los ayuda para mantenerse a la vanguardia en la nueva era digital ademas de 
+                ayudar de manera proactiva sus negocios y actividades para satisfarse y susperar sus expectativas.
+            </p>
+        </div>
+        <!-------------finaliza-------------------------->
+
+        <!-----------Inicio PArte 1---------------------->
+        <div id="parte1">
+            <ul class="carousel-indicators">
+                
+            </ul>
+
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="img/key2.jpg" alt="1" style="width:100%;">
                     <div class="carousel-caption d-block d-md-block" style="top:25%" id="titl3">
                         <h3>Las herramientas para triunfar en el mundo digital al alcance de tus manos</h3>
-    
                     </div>
                 </div>
-            
             </div>
         </div>
-        <!-- FIN IMAGEN 1 -->
+        <!-----------fin PArte 1---------------------->
 
-
-                <br>
-                
-            </div>
-
+        <br>
 
         <div class="container_fluid" style="padding-right: 0px;padding-left: 0px;">
             <div class="row" style="width:100%;" style="margin-right: 0px;margin-left: 0px;">
-                <div class="col-md-5"> 
+                <div class="col-md-5">
                     <img id="imgres" src="img/responsive1.png" >
                 </div>
 
@@ -105,55 +101,36 @@
                         soluciones prácticas  y creativas, fundamentadas en el avance del desarrollo web, como empresa 
                         innovadora buscamos el máximo beneficio para nuestros clientes a través de la calidad de nuestros 
                         servicios y productos, creemos en el liderazgo empresarial responsable y en el desarrollo de un
-                        crecimiento rentable en conjunto con la sostenibilidad virtualmente progresiva.</p>
+                        crecimiento rentable en conjunto con la sostenibilidad virtualmente progresiva.
+                    </p>
                 </div>
-            </div>            
+            </div>
         </div>
-
         <br>
-    <div class="container_fluid2" style="padding-right: 0px;padding-left: 0px;">
-        <div class="row2" style="width:100%; fond-color:#fff; margin-right: 0px;margin-left: 0px;">
-            <div class="col-md-62" id="titulof4" > 
-            <font size="6%" COLOR="white" style="font-weight: bold;">LO QUE TÚ TE MERECES</FONT>
-            </div>
 
-            <div class="col-md-62" id="parrafof2" style="font-weight: bold; text-align:center">
-            <FONT COLOR="white">Ubicados en Honduras contamos con una gran variedad de 
-                facilidades para tu negocio o trabajo, ya que realizamos cualquier tipo de proyecto.<br>
-                
+        <!-----------------------Inicio-------------------------->
+        <div class="container_fluid2" style="padding-right: 0px;padding-left: 0px;">
+            <div class="row2" style="width:100%; color:#fff; margin-right: 0px;margin-left: 0px;">
+                <div class="col-md-62" id="titulof4">
+                    <font size="6%" COLOR="white" style="font-weight: bold;">LO QUE TÚ TE MERECES</font>
+                </div>
 
-            </FONT>
+                <div class="col-md-62" id="parrafof2" style="font-weight: bold; text-align:center">
+                    <FONT COLOR="white">
+                        Ubicados en Honduras contamos con una gran variedad de 
+                        facilidades para tu negocio o trabajo, ya que realizamos cualquier tipo de proyecto.
+                        <br>
+                    </FONT>
+                </div>
             </div>
-        </div>         
-        
-        
+        </div>
+        <!-------------------------Fin-------------------------->
+
     </div>
 
-                        <div>
-                            <!--INICIO EFECTO-->
-                            
-         <!--FINAL EFECTO-->
-                        </div>
-
-
-
     
-    </div>
-    
-
     <?php include("footer.php") ?>
     <script src="js/main.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('.zoom').hover(function() {
-                $(this).addClass('transition');
-            }, function() {
-                $(this).removeClass('transition');
-            });
-        });
-    </script>
-
-    
 </body>
 
 </html>
