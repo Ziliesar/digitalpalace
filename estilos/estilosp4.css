@@ -716,3 +716,20 @@ img.zoom {
     -o-transform: scale(0.8);
   }
 /*----------------------------------------------*/
+/*-----------------ESTILO ACERCA DE NOSOTROS--------------------*/
+@media only screen and (max-width: 650px){
+    #contobj2{
+        display: none;
+    }
+}
+
+
+
+@media only screen and (min-width: 651px){
+    #contobj3{
+        display: none;
+    }
+
+    
+}
+/*------------------FIN ACERCA DE NOSOTROS--------------------*/
