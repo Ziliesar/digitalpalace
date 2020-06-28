@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<?php 
-include("head.php"); ?>
+<?php include("head.php"); ?>
 
-<body>
+<body >
     <?php include("header.php"); ?>
+    <div id="contobj2" class="container-fluid" style="padding-right: 0px;padding-left: 0px;">
     <div id="contoc">
     <div class=" contenAbout">
         <br>
@@ -154,7 +154,9 @@ include("head.php"); ?>
         </div>
     </div>
 </div>
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
+</div>
+    
 </body>
 
 </html>
