@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="animate__animated animate__slideInRight">
 <?php include("head.php"); ?>
-<body class="font">
+<body  id="font">
     <?php include("header.php"); ?>
             <form action="enviar.php" method="post" class="formenv1" id="formenv" style="text-align: center;">
             <h1 style="color:white">Enviar consulta</h1>

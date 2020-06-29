@@ -3,7 +3,7 @@
 
 <?php include("head.php"); ?>
 
-<body >
+<body class="animate__animated animate__slideInRight">
     <?php include("header.php"); ?>
 
 

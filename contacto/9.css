@@ -3,10 +3,31 @@
     background-color:rgba(0,0,0,0.5);
 }
 
-.font{
+#font{
     background-image: url("../img/contacto2.jpg");
     background-size: 100%;
 }
+
+#fond2a{
+    background-image: url("img/av.jpg");
+    background-size: 100%;
+    
+}
+
+
+body::-webkit-scrollbar{
+    width: 10px;
+    
+}
+
+::-webkit-scrollbar-track        { 
+    background: #e2f6ff;
+ }
+body::-webkit-scrollbar-thumb {
+    background: #143f52;
+    
+}
+
 
 form {
   width: 40%;

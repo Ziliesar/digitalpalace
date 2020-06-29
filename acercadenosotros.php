@@ -3,7 +3,7 @@
 
 <?php include("head.php"); ?>
 
-<body >
+<body class="animate__animated animate__slideInRight">
     <?php include("header.php"); ?>
     <div id="contobj2" class="container-fluid" style="padding-right: 0px;padding-left: 0px;">
     <div id="contoc">
